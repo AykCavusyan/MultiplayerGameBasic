@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinemachine", "Cinemachine.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ProBuilder", "Unity.ProBuilder.csproj", "{3482561B-C801-1D5D-5148-133699571743}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{E374DB6B-1CED-5244-3A96-1BDA1421ABD6}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telepathy", "Telepathy.csproj", "{05456617-2216-3510-96B0-5602D5CFFBB1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ProGrids", "Unity.ProGrids.csproj", "{65C08BF3-E174-DBB1-0C56-3C71FE02505D}"
@@ -56,8 +58,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Universal.Shaders", "Unity.RenderPipelines.Universal.Shaders.csproj", "{DA786F59-9FBD-D950-DCD8-7F1199524537}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary", "Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj", "{B8922EB1-26DF-5801-0CFC-26D8066F0C5D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{E374DB6B-1CED-5244-3A96-1BDA1421ABD6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ShaderGraph.Editor", "Unity.ShaderGraph.Editor.csproj", "{B39A2A33-0DDE-1E10-7212-E0B0E301B137}"
 EndProject
@@ -133,6 +133,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinemachine", "Cinemachine.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ProBuilder", "Unity.ProBuilder.Player.csproj", "{394D0221-BA88-FE32-DF9C-903FCFEE453D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.Player.csproj", "{9F2127D8-596B-6A8F-9719-14E8E14776F5}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telepathy", "Telepathy.Player.csproj", "{172768CC-C86D-A56C-0C6A-95B4538BEBEF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.ProGrids", "Unity.ProGrids.Player.csproj", "{F758473D-B8B0-1334-955D-573DF474ABF1}"
@@ -160,8 +162,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.Universal.Shaders", "Unity.RenderPipelines.Universal.Shaders.Player.csproj", "{00F7B55B-F1F0-AACF-5D81-285D370BE6DE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary", "Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.Player.csproj", "{9DFB602D-4B74-7B7A-9EB9-934346A60EE0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.Player.csproj", "{9F2127D8-596B-6A8F-9719-14E8E14776F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +225,10 @@ Global
 		{3482561B-C801-1D5D-5148-133699571743}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3482561B-C801-1D5D-5148-133699571743}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3482561B-C801-1D5D-5148-133699571743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E374DB6B-1CED-5244-3A96-1BDA1421ABD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E374DB6B-1CED-5244-3A96-1BDA1421ABD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E374DB6B-1CED-5244-3A96-1BDA1421ABD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E374DB6B-1CED-5244-3A96-1BDA1421ABD6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{05456617-2216-3510-96B0-5602D5CFFBB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{05456617-2216-3510-96B0-5602D5CFFBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05456617-2216-3510-96B0-5602D5CFFBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -281,10 +285,6 @@ Global
 		{B8922EB1-26DF-5801-0CFC-26D8066F0C5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8922EB1-26DF-5801-0CFC-26D8066F0C5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8922EB1-26DF-5801-0CFC-26D8066F0C5D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E374DB6B-1CED-5244-3A96-1BDA1421ABD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E374DB6B-1CED-5244-3A96-1BDA1421ABD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E374DB6B-1CED-5244-3A96-1BDA1421ABD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E374DB6B-1CED-5244-3A96-1BDA1421ABD6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B39A2A33-0DDE-1E10-7212-E0B0E301B137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B39A2A33-0DDE-1E10-7212-E0B0E301B137}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B39A2A33-0DDE-1E10-7212-E0B0E301B137}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -433,6 +433,10 @@ Global
 		{394D0221-BA88-FE32-DF9C-903FCFEE453D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{394D0221-BA88-FE32-DF9C-903FCFEE453D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{394D0221-BA88-FE32-DF9C-903FCFEE453D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F2127D8-596B-6A8F-9719-14E8E14776F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F2127D8-596B-6A8F-9719-14E8E14776F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F2127D8-596B-6A8F-9719-14E8E14776F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F2127D8-596B-6A8F-9719-14E8E14776F5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{172768CC-C86D-A56C-0C6A-95B4538BEBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{172768CC-C86D-A56C-0C6A-95B4538BEBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{172768CC-C86D-A56C-0C6A-95B4538BEBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -489,10 +493,6 @@ Global
 		{9DFB602D-4B74-7B7A-9EB9-934346A60EE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DFB602D-4B74-7B7A-9EB9-934346A60EE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DFB602D-4B74-7B7A-9EB9-934346A60EE0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9F2127D8-596B-6A8F-9719-14E8E14776F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F2127D8-596B-6A8F-9719-14E8E14776F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F2127D8-596B-6A8F-9719-14E8E14776F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F2127D8-596B-6A8F-9719-14E8E14776F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

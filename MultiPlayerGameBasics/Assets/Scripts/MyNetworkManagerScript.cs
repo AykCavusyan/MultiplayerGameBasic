@@ -12,6 +12,7 @@ public class MyNetworkManagerScript : NetworkManager
         base.OnServerAddPlayer(conn);
 
         MyNetworkPlayer player = conn.identity.GetComponent<MyNetworkPlayer>();
+
         player.SetDisplayName($"Player {numPlayers}");
 
         Color displayColor = new Color(
